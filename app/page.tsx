@@ -1,12 +1,7 @@
 import Image from 'next/image'
 import avatarAmg from '../public/images/imgrender.gif'
 import './globals.css'        // глобальные стили
-import '../public/css/reset.css'       // подключаем reset.css
-import '../public/css/bootstrap-grid.min.css'  // подключаем bootstrap
-import '../public/css/animations.css'  // подключаем анимации
-import '../public/css/perfect-scrollbar.css'  // подключаем perfect-scrollbar
-import '../public/css/owl.carousel.css'   // подключаем owl.carousel
-import '../public/css/magnific-popup.css'  // подключаем magnific-popup
+
 import '../public/css/main.css'        // подключаем основной стиль
 
 import img1 from '/imgrender.gif'

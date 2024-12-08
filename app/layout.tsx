@@ -1,10 +1,5 @@
 import './globals.css'        // глобальные стили
-import '../public/css/reset.css'       // подключаем reset.css
-import '../public/css/bootstrap-grid.min.css'  // подключаем bootstrap
-import '../public/css/animations.css'  // подключаем анимации
-import '../public/css/perfect-scrollbar.css'  // подключаем perfect-scrollbar
-import '../public/css/owl.carousel.css'   // подключаем owl.carousel
-import '../public/css/magnific-popup.css'  // подключаем magnific-popup
+
 import '../public/css/main.css'        // подключаем основной стиль
 
 import Script from 'next/script'
@@ -33,7 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script src="/js/jquery-2.1.3.min.js" strategy="beforeInteractive" />
         <Script src="/js/animating.js" strategy="afterInteractive" />
         <Script src="/js/imagesloaded.pkgd.min.js" strategy="afterInteractive" />
-        <Script src="/js/api.js" strategy="afterInteractive" />
         <Script src="/js/perfect-scrollbar.min.js" strategy="afterInteractive" />
         <Script src="/js/jquery.shuffle.min.js" strategy="afterInteractive" />
         <Script src="/js/masonry.pkgd.min.js" strategy="afterInteractive" />
